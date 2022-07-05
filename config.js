@@ -21,9 +21,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Display Title",
-      image: "./path/to/image/source.png",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      image: "",
+      description:"paragrago 1 <br> paragrafo 2",
       location: {
         center: [31.18128, 48.50787],
         zoom: 4.5,
@@ -99,10 +98,10 @@ var config = {
       image: "./path/to/image/source.png",
       description: "Copy these sections to add to your story.",
       location: {
-        center: [39.79726, 27.81408],
-        zoom: 4.0,
-        pitch: 45.0,
-        bearing: 0.0,
+        center: [23.53734, 28.40650],
+        zoom: 3.89,
+        pitch: 0.50,
+        bearing: 0.00
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
