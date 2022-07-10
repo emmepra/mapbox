@@ -10,9 +10,9 @@ var config = {
   inset: true,
   theme: "light",
   use3dTerrain: false, //set true for enabling 3D maps.
-  title: "The Title Text of this Story",
-  subtitle: "A descriptive and interesting subtitle to draw in the reader",
-  byline: "By a Digital Storyteller",
+  title: "Dune di grano",
+  subtitle: "Il porto di Odessa è sotto assedio. Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
+  byline: "Matteo Prandi e Vivianna Zitani",
   footer:
     'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
   chapters: [
@@ -20,9 +20,10 @@ var config = {
       id: "Ukraine High",
       alignment: "left",
       hidden: false,
-      title: "Display Title",
-      image: "",
-      description:"paragrago 1 <br> paragrafo 2",
+      title: "Europa Est (Sotto assedio)",
+      image: "./path/to/image/source.png",
+      description:
+        "Dalla Seconda guerra mondiale mai nessun conflitto aveva avuto conseguenze irreversibili come quelle della guerra russo-ucraina. <pr></p>Il nuovo assetto internazionale dovrà trovare differenti rotte commerciali, gestire gli effetti di un’inflazione galoppante e far fronte a una lenta crescita economica.",
       location: {
         center: [31.18128, 48.50787],
         zoom: 4.5,
@@ -44,10 +45,10 @@ var config = {
       id: "Ukraine Zoom",
       alignment: "right",
       hidden: false,
-      title: "Display Title 22",
+      title: "Ucraina",
       image: "./path/to/image/source.png",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Russia e Ucraina sono tra i più grandi esportatori di grano al mondo. <pr></p>Il Paese sotto assedio, però, deve al più presto mettere in navigazione i 22 milioni di grani duri e teneri bloccati nei silos del Porto di Odessa. Rischiano di marcire. <pr></p>Tentare di salvare la propria economia significa anche scongiurare una catastrofe alimentare nei Paesi del Medio Oriente e dell'Africa che dipendono in maniera esistenziale dalle esportazioni di cereali ucraini.",
       location: {
         center: [31.18128, 48.50787],
         zoom: 5.5,
@@ -64,9 +65,39 @@ var config = {
       id: "Odessa Port",
       alignment: "right",
       hidden: false,
-      title: "Second Title",
+      title: "Odessa 1",
       image: "./path/to/image/source.png",
-      description: "Copy these sections to add to your story.",
+      description: "Dune di grano ammirano il Mar Nero, uno specchio piatto. <pr></p>Dal 24 febbraio questa grande distesa d’acqua è infestata di mine e non permette ai cargo che contengono l’oro d’Ucraina di prendere il largo.",
+      location: {
+        center: [30.7413, 46.49842],
+        zoom: 13.28,
+        pitch: 45.0,
+        bearing: 0.0,
+        // flyTo additional controls-
+        // These options control the flight curve, making it move
+        // slowly and zoom out almost completely before starting
+        // to pan.
+        //speed: 2, // make the flying slow
+        //curve: 1, // change the speed at which it zooms out
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "ukraine-area",
+          opacity: 0,
+        },
+      ],
+      onChapterExit: [],
+    },
+{
+      id: "Odessa 2",
+      alignment: "right",
+      hidden: false,
+      title: "Ciao Tamar",
+      image: "./path/to/image/source.png",
+      description: "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare.<pr></p>Era da qui, dal terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. <br>Oggi il silenzio di fronte a questo deserto di grano è un rumore assordante.",
       location: {
         center: [30.7413, 46.49842],
         zoom: 13.28,
@@ -94,14 +125,14 @@ var config = {
       id: "Middle East",
       alignment: "left",
       hidden: false,
-      title: "Third Title",
+      title: "MO",
       image: "./path/to/image/source.png",
-      description: "Copy these sections to add to your story.",
+      description: "Molti Paesi del Medio Oriente e  dell’Africa, fremono per l'arrivo del grano senza il quale non si può preparare il pane, elemento immancabile nell’alimentazione dei Paesi poveri e in via di sviluppo. <p></p>È proprio in questi stati che le difficoltà finanziarie rischiano di esacerbare un malcontento popolare diffuso già da tempo.",
       location: {
-        center: [23.53734, 28.40650],
-        zoom: 3.89,
-        pitch: 0.50,
-        bearing: 0.00
+        center: [39.79726, 27.81408],
+        zoom: 4.0,
+        pitch: 45.0,
+        bearing: 0.0,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -127,12 +158,12 @@ var config = {
       id: "fourth-chapter",
       alignment: "fully",
       hidden: false,
-      title: "Third Title",
+      title: "Egitto",
       image: "./path/to/image/source.png",
-      description: "Copy these sections to add to your story.",
+      description: "Il Paese più popoloso del mondo arabo rischia una crisi alimentare tale che le possibili conseguenze sociali rappresentano una priorità all’interno dell’agenda degli stati di tutta la regione.<p></p>In questo fragile assetto si aggiungono, poi, le disillusioni delle promesse del governo, impegnato già nel delicato piano di ripresa post-pandemica.",
       location: {
-        center: [31.2544, 30.06598],
-        zoom: 12.67,
+        center: [28.5629368155458, 31.126393292107704],
+        zoom: 3.80,
         pitch: 45.0,
         bearing: 0.0,
       },
