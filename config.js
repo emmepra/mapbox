@@ -13,7 +13,7 @@ var config = {
   title: "Dune di grano",
   subtitle:
     "Il porto di Odessa è sotto assedio. Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
-  byline: "Matteo Prandi e Vivianna Zitani",
+  byline: "Vivianna Zitani & Matteo Prandi",
   chapters: [
     {
       id: "Ukraine ultra High",

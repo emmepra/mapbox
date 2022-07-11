@@ -84,13 +84,15 @@
         }
         #header {
             margin: 0 auto;
-            width: 50vw;
+            width: 35vw;
             position: relative;
             z-index: 5;
             opacity: .85;
             padding:  15px 50px;
-
+            box-shadow: inset 0 0 0 5px white, inset 0 0 0 7px #d90b0b; 
         }
+
+
         #header h1, #header h2, #header p {
             margin: 0;
             padding: 1vh 1vw;
@@ -100,13 +102,27 @@
 
         #header h1 {
             font-size: 3rem;
-                border-bottom: 2px solid #d90b0b;
+        }
+
+        #header h1:after {
+            display: block;
+            content: "";
+            background: #d90b0b;
+            height: 2px;
+            width: 250px;
+            opacity: 80%;
+            margin: 1.5rem auto 1rem;
         }
         
         #header h2 {
             font-size: 1.5rem;
-                font-weight: 500;
-                 font-family: "Tiempos Text Web";
+            font-weight: 500;
+            font-family: "Tiempos Text Web";
+        }
+
+        #header p {
+            margin-top: 1rem;
+            font-size: 1rem
         }
 
         #footer {
