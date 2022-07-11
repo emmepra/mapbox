@@ -19,7 +19,7 @@ var config = {
       id: "Ukraine ultra High",
       alignment: "center",
       hidden: true,
-     
+
       location: {
         center: [31.18128, 48.50787],
         zoom: 1.5,
@@ -48,13 +48,13 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [
+      onChapterEnter: [
         {
           layer: "ukraine-area",
           opacity: 0.35,
         },
       ],
+      onChapterExit: [],
     },
     {
       id: "Ukraine Zoom",
