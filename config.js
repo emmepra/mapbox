@@ -11,17 +11,32 @@ var config = {
   theme: "light",
   use3dTerrain: false, //set true for enabling 3D maps.
   title: "Dune di grano",
-  subtitle: "Il porto di Odessa è sotto assedio. Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
+  subtitle:
+    "Il porto di Odessa è sotto assedio. Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
   byline: "Matteo Prandi e Vivianna Zitani",
-  footer:
-    'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
   chapters: [
+    {
+      id: "Ukraine ultra High",
+      alignment: "center",
+      hidden: true,
+     
+      location: {
+        center: [31.18128, 48.50787],
+        zoom: 1.5,
+        pitch: 45.0,
+        bearing: 0.0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [],
+      onChapterExit: [],
+    },
     {
       id: "Ukraine High",
       alignment: "left",
       hidden: false,
       title: "Europa Est (Sotto assedio)",
-      image: "./path/to/image/source.png",
       description:
         "Dalla Seconda guerra mondiale mai nessun conflitto aveva avuto conseguenze irreversibili come quelle della guerra russo-ucraina. <pr></p>Il nuovo assetto internazionale dovrà trovare differenti rotte commerciali, gestire gli effetti di un’inflazione galoppante e far fronte a una lenta crescita economica.",
       location: {
@@ -46,7 +61,6 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Ucraina",
-      image: "./path/to/image/source.png",
       description:
         "Russia e Ucraina sono tra i più grandi esportatori di grano al mondo. <pr></p>Il Paese sotto assedio, però, deve al più presto mettere in navigazione i 22 milioni di grani duri e teneri bloccati nei silos del Porto di Odessa. Rischiano di marcire. <pr></p>Tentare di salvare la propria economia significa anche scongiurare una catastrofe alimentare nei Paesi del Medio Oriente e dell'Africa che dipendono in maniera esistenziale dalle esportazioni di cereali ucraini.",
       location: {
@@ -66,8 +80,8 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Odessa 1",
-      image: "./path/to/image/source.png",
-      description: "Dune di grano ammirano il Mar Nero, uno specchio piatto. <pr></p>Dal 24 febbraio questa grande distesa d’acqua è infestata di mine e non permette ai cargo che contengono l’oro d’Ucraina di prendere il largo.",
+      description:
+        "Dune di grano ammirano il Mar Nero, uno specchio piatto. <pr></p>Dal 24 febbraio questa grande distesa d’acqua è infestata di mine e non permette ai cargo che contengono l’oro d’Ucraina di prendere il largo.",
       location: {
         center: [30.7413, 46.49842],
         zoom: 13.28,
@@ -91,13 +105,13 @@ var config = {
       ],
       onChapterExit: [],
     },
-{
+    {
       id: "Odessa 2",
       alignment: "right",
       hidden: false,
       title: "Ciao Tamar",
-      image: "./path/to/image/source.png",
-      description: "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare.<pr></p>Era da qui, dal terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. <br>Oggi il silenzio di fronte a questo deserto di grano è un rumore assordante.",
+      description:
+        "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare.<pr></p>Era da qui, dal terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. <br>Oggi il silenzio di fronte a questo deserto di grano è un rumore assordante.",
       location: {
         center: [30.7413, 46.49842],
         zoom: 13.28,
@@ -126,8 +140,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "MO",
-      image: "./path/to/image/source.png",
-      description: "Molti Paesi del Medio Oriente e  dell’Africa, fremono per l'arrivo del grano senza il quale non si può preparare il pane, elemento immancabile nell’alimentazione dei Paesi poveri e in via di sviluppo. <p></p>È proprio in questi stati che le difficoltà finanziarie rischiano di esacerbare un malcontento popolare diffuso già da tempo.",
+      description:
+        "Molti Paesi del Medio Oriente e  dell’Africa, fremono per l'arrivo del grano senza il quale non si può preparare il pane, elemento immancabile nell’alimentazione dei Paesi poveri e in via di sviluppo. <p></p>È proprio in questi stati che le difficoltà finanziarie rischiano di esacerbare un malcontento popolare diffuso già da tempo.",
       location: {
         center: [39.79726, 27.81408],
         zoom: 4.0,
@@ -159,11 +173,11 @@ var config = {
       alignment: "fully",
       hidden: false,
       title: "Egitto",
-      image: "./path/to/image/source.png",
-      description: "Il Paese più popoloso del mondo arabo rischia una crisi alimentare tale che le possibili conseguenze sociali rappresentano una priorità all’interno dell’agenda degli stati di tutta la regione.<p></p>In questo fragile assetto si aggiungono, poi, le disillusioni delle promesse del governo, impegnato già nel delicato piano di ripresa post-pandemica.",
+      description:
+        "Il Paese più popoloso del mondo arabo rischia una crisi alimentare tale che le possibili conseguenze sociali rappresentano una priorità all’interno dell’agenda degli stati di tutta la regione.<p></p>In questo fragile assetto si aggiungono, poi, le disillusioni delle promesse del governo, impegnato già nel delicato piano di ripresa post-pandemica.",
       location: {
         center: [28.5629368155458, 31.126393292107704],
-        zoom: 3.80,
+        zoom: 3.8,
         pitch: 45.0,
         bearing: 0.0,
       },

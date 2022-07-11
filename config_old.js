@@ -22,7 +22,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "ciao tamar",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "Dalla Seconda guerra mondiale mai nessun conflitto aveva avuto conseguenze irreversibili come quelle della guerra russo-ucraina. <pr></p>Il nuovo assetto internazionale dovrà trovare nuove rotte commerciali, gestire gli effetti di un’inflazione galoppante e far fronte a una lenta crescita economica.",
       location: {
@@ -47,7 +47,7 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Padre Pio aiutaci tu",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "L’Ucraina - insieme alla Russia - è uno dei più grandi esportatori di grano al mondo. <br> Il paese sotto assedio, però, deve al più presto mettere in navigazione i 22 milioni di grani duri e teneri bloccati nei silos del Porto di Odessa. <br>Tentare di salvare la propria economia significa anche scongiurare una catastrofe alimentare nei Paesi del Medio Oriente e dell'Africa che dipendono dalle esportazioni di cereali ucraini, talvolta anche in maniera esistenziale.",
       location: {
@@ -67,7 +67,7 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Le “dune” sono prigioniere di guerra",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "Il Mar Nero è uno specchio piatto.<pr></p>Dal 24 febbraio questa grande distesa d’acqua è infestata di mine e non permette ai cargo che contengono l’oro d’Ucraina di prendere il largo.",
       location: {
@@ -98,7 +98,7 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "Ciao Tamar",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare. <pr></p>Era da qui, dal  terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. Oggi il silenzio di fronte a queste dune di grano è un rumore assordante.<pr></p> Egitto, Tunisia, Sudan, Libano e Yemen fremono per l'arrivo del grano, senza il quale non si può preparare il pane quotidiano.",
       location: {
@@ -129,7 +129,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "Third Titolo non so cosa",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "I Paesi del Medio Oriente, posti di fronte al blocco delle esportazioni di grano ucraino e all’aumento dei prezzi delle materie prime, stanno affrontando gravi problemi in termini di sicurezza alimentare e umanitaria. <p></p>Le difficoltà finanziarie di Stati come l’Egitto e la Tunisia - che dipendono in maniera morbosa dall’importazione di grano ucraino e russo - rischiano di esacerbare il malcontento popolare che si respira nell’aria già da tempo. <p></p> In questo fragile assetto si aggiungono, poi, le disillusioni delle promesse dei governi, impegnati già nel delicato piano di ripresa post-pandemica.",
       location: {
@@ -163,7 +163,7 @@ var config = {
       alignment: "fully",
       hidden: false,
       title: "Third Titleeeeee",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "In Egitto il governo del presidente egiziano al-Sisi dovrà affrontare una sfida complessa, costretto a cercare nuovi fornitori di grano mentre tenta di assorbire il colpo dell'aumento dei prezzi dei generi alimentari.",
       location: {
@@ -188,7 +188,7 @@ var config = {
       alignment: "fully",
       hidden: false,
       title: "Third Titleeeeee",
-      image: "./path/to/image/source.png",
+      image: "",
       description:
         "In Egitto il governo del presidente egiziano al-Sisi dovrà affrontare una sfida complessa, costretto a cercare nuovi fornitori di grano mentre tenta di assorbire il colpo dell'aumento dei prezzi dei generi alimentari.",
       location: {
