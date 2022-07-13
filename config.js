@@ -12,7 +12,7 @@ var config = {
   use3dTerrain: false, //set true for enabling 3D maps.
   title: "Dune di grano",
   subtitle:
-    "Il porto di Odessa è sotto assedio. Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
+    "Il porto di Odessa è sotto assedio<br>Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
   byline: "Vivianna Zitani & Matteo Prandi",
   chapters: [
     {
@@ -109,7 +109,7 @@ var config = {
       id: "Odessa 2",
       alignment: "right",
       hidden: false,
-      title: "Ciao Tamar",
+      title: "Odessa 2",
       description:
         "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare.<pr></p>Era da qui, dal terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. <br>Oggi il silenzio di fronte a questo deserto di grano è un rumore assordante.",
       location: {
@@ -188,6 +188,30 @@ var config = {
         {
           layer: "egypt-area",
           opacity: 0.35,
+        },
+      ],
+      onChapterExit: [],
+    },
+    {
+      id: "fourth-chapter",
+      alignment: "fully",
+      hidden: false,
+      title: "Il Cairo",
+      description:
+        "«Le riserve di grano egiziane possono coprire quattro mesi e mezzo».<pr></p>Queste le dichiarazioni del Segretario Generale delle Camere di Commercio Egiziane – Alaa El-Ezz – rilasciate in un’intervista telefonica a Egypt Independent.<pr></p>Con l’aumento dei prezzi e la prospettiva di un rapido esaurimento delle scorte, il Presidente Al-Sisi si trova di fronte alla scelta di predisporre nuovi incentivi per il settore agricolo e per il controllo dei prezzi alla vendita.",
+      location: {
+        center: [31.2544, 30.06598],
+        zoom: 12.58,
+        pitch: 45.0,
+        bearing: 0.0,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: true,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "egypt-area",
+          opacity: 0,
         },
       ],
       onChapterExit: [],
