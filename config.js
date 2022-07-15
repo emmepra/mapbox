@@ -201,7 +201,7 @@ var config = {
         "«Le riserve di grano egiziane possono coprire quattro mesi e mezzo».<pr></p>Queste le dichiarazioni del Segretario Generale delle Camere di Commercio Egiziane – Alaa El-Ezz – rilasciate in un’intervista telefonica a Egypt Independent.<pr></p>Con l’aumento dei prezzi e la prospettiva di un rapido esaurimento delle scorte, il Presidente Al-Sisi si trova di fronte alla scelta di predisporre nuovi incentivi per il settore agricolo e per il controllo dei prezzi alla vendita.",
       location: {
         center: [31.2544, 30.06598],
-        zoom: 12.58,
+        zoom: 8,
         pitch: 45.0,
         bearing: 0.0,
       },
