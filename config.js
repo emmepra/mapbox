@@ -62,7 +62,7 @@ var config = {
       hidden: false,
       title: "Ucraina",
       description:
-        "Russia e Ucraina sono tra i più grandi esportatori di grano al mondo. <pr></p>Il Paese sotto assedio, però, deve al più presto mettere in navigazione i 22 milioni di grani duri e teneri bloccati nei silos del Porto di Odessa. Rischiano di marcire. <pr></p>Tentare di salvare la propria economia significa anche scongiurare una catastrofe alimentare nei Paesi del Medio Oriente e dell'Africa che dipendono in maniera esistenziale dalle esportazioni di cereali ucraini.",
+        "Russia e Ucraina sono tra i più grandi esportatori di grano al mondo. Il Paese sotto assedio, però, deve al più presto mettere in navigazione i 22 milioni di grani duri e teneri bloccati nei silos del Porto di Odessa. Rischiano di marcire. <pr></p>Tentare di salvare la propria economia significa anche scongiurare una catastrofe alimentare nei Paesi del Medio Oriente e dell'Africa che dipendono in maniera esistenziale dalle esportazioni di cereali ucraini.",
       location: {
         center: [31.18128, 48.50787],
         zoom: 5.5,
