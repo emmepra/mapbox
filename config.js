@@ -3,17 +3,13 @@ var config = {
   accessToken:
     "pk.eyJ1IjoiZW1tZXByYSIsImEiOiJjbDU1MjdkcnoxNTBiM2RwcGdjeDdwcTdoIn0.QW7FLX0L7VgWyJVcJw2F5A",
   showMarkers: false,
-  //markerColor: "#3FB1CE",
-  //projection: 'equirectangular',
-  //Read more about available projections here
-  //https://docs.mapbox.com/mapbox-gl-js/example/projections/
-  inset: true,
+  inset: false,
   theme: "light",
   use3dTerrain: false, //set true for enabling 3D maps.
-  title: "Dune di grano",
+  title: "Un deserto di grano",
   subtitle:
-    "Il porto di Odessa è sotto assedio<pr></p>Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
-  byline: "Vivianna Zitani & Matteo Prandi",
+    "Il porto di Odessa è sotto assedio. </br></br>Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine mentre il Medio Oriente muore di fame",
+  byline: "Matteo Prandi & Vivianna Zitani",
   chapters: [
     {
       id: "Ukraine ultra High",
@@ -87,12 +83,6 @@ var config = {
         zoom: 13.28,
         pitch: 45.0,
         bearing: 0.0,
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
@@ -106,33 +96,16 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "Odessa 2",
+      id: "Odessa Port",
       alignment: "right",
       hidden: false,
       title: "Odessa 2",
       description:
         "L'intera area dello scalo del porto di Odessa è classificata sito strategico-militare.<pr></p>Era da qui, dal terminal più grande del Paese, che i cereali venivano scaricati e ripartivano a ciclo continuo. <br>Oggi il silenzio di fronte a questo deserto di grano è un rumore assordante.",
-      location: {
-        center: [30.7413, 46.49842],
-        zoom: 13.28,
-        pitch: 45.0,
-        bearing: 0.0,
-        // flyTo additional controls-
-        // These options control the flight curve, making it move
-        // slowly and zoom out almost completely before starting
-        // to pan.
-        //speed: 2, // make the flying slow
-        //curve: 1, // change the speed at which it zooms out
-      },
-      mapAnimation: "flyTo",
+      location: {},
       rotateAnimation: true,
       callback: "",
-      onChapterEnter: [
-        {
-          layer: "ukraine-area",
-          opacity: 0,
-        },
-      ],
+      onChapterEnter: [],
       onChapterExit: [],
     },
     {
@@ -193,7 +166,7 @@ var config = {
       onChapterExit: [],
     },
     {
-      id: "fourth-chapter",
+      id: "fourth-chapterr",
       alignment: "fully",
       hidden: false,
       title: "Il Cairo",
@@ -201,7 +174,7 @@ var config = {
         "«Le riserve di grano egiziane possono coprire quattro mesi e mezzo».<pr></p>Queste le dichiarazioni del Segretario Generale delle Camere di Commercio Egiziane – Alaa El-Ezz – rilasciate in un’intervista telefonica a Egypt Independent.<pr></p>Con l’aumento dei prezzi e la prospettiva di un rapido esaurimento delle scorte, il Presidente Al-Sisi si trova di fronte alla scelta di predisporre nuovi incentivi per il settore agricolo e per il controllo dei prezzi alla vendita.",
       location: {
         center: [31.2544, 30.06598],
-        zoom: 8,
+        zoom: 15,
         pitch: 45.0,
         bearing: 0.0,
       },
