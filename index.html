@@ -293,7 +293,7 @@ if (config.subtitle) {
 
 if (config.byline) {
     var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
+    bylineText.innerHTML = config.byline;
     header.appendChild(bylineText);
 }
 
