@@ -171,6 +171,7 @@ var config = {
       hidden: false,
       title: "Il Cairo ha i giorni contati ",
       description:
+        
         "«Le riserve di grano egiziane possono coprire <b>quattro mesi e mezzo</b>».<pr></p>Queste le dichiarazioni del <b>Segretario Generale</b> delle Camere di Commercio Egiziane – Alaa El-Ezz – rilasciate in un’intervista telefonica a Egypt Independent.<pr></p>Con l’<b>aumento dei prezzi</b> e la prospettiva di un rapido <b>esaurimento delle scorte</b>, una possibile <b>carestia</b> rappresenta per il paese più popoloso del mondo arabo un problema di massima <b>prorità</b>.",
       location: {
         center: [31.2544, 30.06598],
