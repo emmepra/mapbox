@@ -6,7 +6,7 @@ var config = {
   inset: false,
   theme: "light",
   use3dTerrain: false, //set true for enabling 3D maps.
-  title: "Un deserto di grano",
+  title: "Dune di Grano",
   subtitle:
     "Il porto di Odessa è sotto assedio.</br></br>Il nuovo silenzioso deserto che ricorda l'odore del pane guarda inerme il Mar Nero infestato di mine.</br></br>È subito emergenza in Egitto,</br>presto sarà fame.",
   byline: "<i>Matteo Prandi & Vivianna Zitani</i>",
